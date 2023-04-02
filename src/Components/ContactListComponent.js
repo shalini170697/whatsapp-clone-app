@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
-import { contactList } from "../mockData";
+import { contactList } from './Data'
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -137,7 +137,7 @@ function ContactLIstComponent(props) {
   return (
     <Container>
       <ProfileInfoDiv>
-        <ProfileImg src={"/profile/abc.png"} />
+        <ProfileImg src={"/profile/pic2.jpg"} />
 
         {setting ? (
           <Setting>
@@ -187,7 +187,7 @@ function ContactLIstComponent(props) {
           <>WhatsAap Clone</>
         )}
         <ProfileImg
-          src={"/profile/setting.png"}
+          src={"/profile/setting.webp"}
           onClick={() => {
             setSetting(!setting);
           }}

@@ -57,19 +57,6 @@ export const contactList = [
       senderID: 1,
       addedOn: "12:00 PM",
     },
-    // {
-    //   id: 5,
-    //   messageType: "TEXT",
-    //   text: "Great 😁",
-    //   senderID: 0,
-    //   addedOn: "12:00 PM",
-    // },
-    // {
-    //   id: 5,
-    //   messageType: "TEXT",
-    //   text: "Have you subscribed The Indian Dev ?",
-    //   senderID: 1,
-    //   addedOn: "12:00 PM",
-    // },
+  
   ];
   

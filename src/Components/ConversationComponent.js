@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { messagesList } from "../mockData";
+import { messagesList } from './Data'
 import Picker from "emoji-picker-react";
 import { useEffect, useState } from "react";
-import "./script.js";
+import "./Data.js";
 
 const Container = styled.div`
   display: flex;
@@ -58,7 +58,7 @@ const MessageContainer = styled.div`
   display: flex;
   flex-direction: column;
   background: #e5ddd6;
-  background-image: url("/whatsapp-clone/chat-background.png");
+  ${'' /* background-image: url("/whatsapp-clone/chat-background.png"); */}
   height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
